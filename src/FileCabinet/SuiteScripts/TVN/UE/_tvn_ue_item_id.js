@@ -14,6 +14,7 @@ define(['N/search'], function (search) {
     }
     function beforeSubmit(scriptContext){
         var newRecord = scriptContext.newRecord;
+	    //test1
         if(scriptContext.type == scriptContext.UserEventType.CREATE){
             
             var recType = newRecord.type;
